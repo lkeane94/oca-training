@@ -28,7 +28,7 @@ public class UnaryOperators {
 
         //int myInt = !5; does not compile , could come up on exam to trick you.
 
-       
+
 
     }
 }
