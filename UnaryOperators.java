@@ -27,6 +27,45 @@ public class UnaryOperators {
 
 
         //int myInt = !5; does not compile , could come up on exam to trick you.
+        //boolean myboolean - true does not compile
+        //boolean z = !0 // does not compile
+
+        //increment and decrement be careful , have higher order thant (+,-,*,/,...)
+        //post increment and pre increment
+
+        //increment
+        int myInt = 5;
+        //myInt = myInt +1;
+       // int otherInt = myInt;
+        int otherInt = ++myInt;
+        System.out.println("myInt"+ myInt+ " otherInt="+ otherInt);
+
+        int newInt = 5;
+        int newOtherInt =  newInt++;
+        System.out.println("newInt+ "+ newInt+ " newOtherInt"+ newOtherInt);
+
+
+        int count = 0;
+        System.out.println(count); //0
+        System.out.println(++count); //1
+        System.out.println(count); // 1
+        System.out.println(count--); //1
+        System.out.println(count); //0
+
+
+        // Exam questions examples
+
+        int e = 3;
+        int f = ++e *5 / e-- +e--;
+
+        // e = 3
+        //f = 4 *5 / 4 +4
+        //
+
+        System.out.println("e= "+ e + "f = "  +  f );
+
+
+
 
 
 
