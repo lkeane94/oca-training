@@ -66,6 +66,13 @@ public class UnaryOperators {
 
         //test commit without author
 
+        int g = 6;
+        int h = 2;
+        int i = ++h + --g * 3 +2 * g++ - h-- % --g;
+        //h = 3 g = 6
+        // 3 + --g
+
+
 
 
 
